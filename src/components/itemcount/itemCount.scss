@@ -1,0 +1,13 @@
+.item-count {
+    background-color: white;
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 12px;
+
+    span:first-child, span:last-child {
+        cursor: pointer;
+    }
+}

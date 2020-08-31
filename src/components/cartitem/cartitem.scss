@@ -1,0 +1,29 @@
+.cart-item {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    position: relative;
+
+    .close {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    p.product-title {
+        font-size: 12px;
+    }
+
+    .image-section {
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    p.price {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+}
